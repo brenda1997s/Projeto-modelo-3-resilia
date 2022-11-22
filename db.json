@@ -1,0 +1,98 @@
+{
+    "Cardapio": [
+        {
+            "id": 1,
+            "tipo": "Prato feito",
+            "descrição": "Arroz, feijão, salada e proteína.",
+            "categoria_id":1
+        },
+        {
+            "id": 2,
+            "tipo": "Massas",
+            "descrição": "Diversos tipos de massas, com 2 opções de molho.",
+            "categoria_id":1
+        },
+        {
+            "id": 3,
+            "tipo": "Saladas",
+            "descrição": "Saladas de folhas ou legumes.",
+            "categoria_id":1
+        },
+        {
+            "id": 4,
+            "tipo": "Bebidas",
+            "descrição": "Bebidas diferenciadas para acompanhar todos os tipos de refeições.",
+            "categoria_id":1
+        }
+
+    ],
+    "Horarios": [
+        {
+          "id": 1,
+          "nome": "Dias úteis."
+        },
+        {
+          "id": 2,
+          "nome": "Sábados, domingos e feriados."
+        },
+        {"id": 3,
+        "nome": "Horário de funcionamento em dias úteis"
+        },
+        {"id": 4,
+        "nome": "Horário de funcionamento aos sábados, domingos e feriados"
+        }
+      ],
+    "funcionários": [
+        {
+            "id": 1,
+            "nome": "Josiane",
+            "idade": "25 anos",
+            "tempo de serviço": "4 anos"
+        },
+        {
+            "id": 2,
+            "nome": "Bruno",
+            "idade": "23 anos",
+            "tempo de serviço": "2 anos"
+        },
+        {
+            "id": 3,
+            "nome": "Joao",
+            "idade": "40 anos",
+            "tempo de serviço": "10 anos"
+        },
+        {
+            "id": 4,
+            "nome": "Solange",
+            "idade": "28 anos",
+            "tempo de serviço": "3 anos"
+        }
+    ],
+    "fornecedores": [
+        {
+            "id": 1,
+            "nome": "nestle",
+            "descrição": "Permitido uso no Brasil"   
+        },
+        {
+            "id": 2,
+            "nome": "ceratti",
+            "descrição": "Permitido uso no Brasil"
+        },
+        {
+            "id": 3,
+            "nome": "tereos",
+            "descrição": "Permitido uso no Brasil"
+        },
+        {
+            "id": 4,
+            "nome": "nutramax",
+            "descrição": "Permitido uso no Brasil"
+        },
+        {
+            "id": 5,
+            "nome": "aunare",
+            "descrição": "Permitido uso no Brasil"
+        }
+    ]
+}
